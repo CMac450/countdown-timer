@@ -1,6 +1,7 @@
 html {
     background-image: url("./images/bg-stars.svg");
     background-color: hsl(235, 16%, 14%);
+    font-family: 'Red Hat Text';
 }
 
 body{ 
@@ -33,6 +34,45 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     cursor: pointer;
+
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border: 1px solid yellow;
+}
+
+
+#main-text {
+    color: hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.timer {
+    margin-bottom: 20px;
+    border: 1px solid green;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.timer-item {
+    border: 1px solid pink;
+    margin: 0 10px;
+    width: 200px;
+}
+
+.timer-text {
+    color: hsl(237, 18%, 59%);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 svg {

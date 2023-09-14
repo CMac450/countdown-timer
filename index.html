@@ -7,6 +7,9 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
 
@@ -26,20 +29,23 @@
 </head>
 
 <body>
-
-  We're launching soon
-
-  Days
-  Hours
-  Minutes
-  Seconds
-
   <div class="container">
-    <!-- <img class="purple-hills" src="./images/pattern-hills.svg" alt="a row of purple hills" /> -->
-    <!-- <img class="purple-hills" src="./images/pattern-hills.svg" alt="a row of purple hills" />
-    <img class="icon" src="./images/icon-facebook.svg" alt="facebook icon" />
-    <img class="icon" src="./images/icon-pinterest.svg" alt="pinterest icon" />
-    <img class="icon" src="./images/icon-instagram.svg" alt="instagram icon" /> -->
+    <p id="main-text">We're launching soon</p>
+
+    <div class="timer">
+      <div class="timer-item" id="days">
+        <p class="timer-text">Days</p>
+      </div>
+      <div class="timer-item" id="hours">
+        <p class="timer-text">Hours</p>
+      </div>
+      <div class="timer-item" id="minutes">
+        <p class="timer-text">Minutes</p>
+      </div>
+      <div class="timer-item" id="seconds">
+        <p class="timer-text">Seconds</p>
+      </div>
+    </div>
   </div>
 
   <img class="purple-hills" src="./images/pattern-hills.svg" alt="a row of purple hills" />
