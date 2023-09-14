@@ -1,0 +1,18 @@
+html {
+    background-image: url("./images/bg-stars.svg");
+    background-color: hsl(235, 16%, 14%);
+}
+
+body{ 
+    margin: 0;;
+}
+
+.container {
+    position: relative;
+}
+
+.purple-hills {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
