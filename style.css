@@ -75,6 +75,11 @@ body{
     text-align: center;
 }
 
+.num-text {
+    font-size: 100px;
+    color:hsl(345, 95%, 68%);
+}
+
 svg {
     fill: #8385A9;
 }
